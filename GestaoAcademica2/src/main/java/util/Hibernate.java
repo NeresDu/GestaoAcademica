@@ -26,7 +26,7 @@ public class Hibernate {
 				// Configuração Hibernate equivalente a hibernate.cfg.xml
 				Properties settings = new Properties();
 				//settings.put(Environment.DRIVER, "com.mysql.cj.jdbc.Driver");
-				settings.put(Environment.DRIVER, "com.mysql.jdbc.Driver");
+				settings.put(Environment.DRIVER, "com.mysql.cj.jdbc.Driver");
 				//settings.put(Environment.URL, "jdbc:mysql://localhost:3306/hibernate_exemplo?useTimezone=true&serverTimezone=UTC");
 				settings.put(Environment.URL, "jdbc:mysql://localhost/GestaoAcademica?createDatabaseIfNotExist=true&useSSL=false&user=root&password=Hadouken&serverTimezone=UTC");
 				//"jdbc:mysql://"+Server+"/"+dbName + "?useSSL=false&user="+userName+"&password="+pws);

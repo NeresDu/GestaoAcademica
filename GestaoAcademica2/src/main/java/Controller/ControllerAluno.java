@@ -27,6 +27,7 @@ public class ControllerAluno {
 	 */
 	@RequestMapping("/salvaraluno")
 	public Aluno salvaAluno(@RequestBody String aluno) {
+		System.out.println(aluno);
 		Gson gson = new Gson();
 		Aluno a = null;
 		a = gson.fromJson(aluno, Aluno.class);
